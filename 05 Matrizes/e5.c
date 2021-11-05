@@ -13,16 +13,16 @@ int main(){
 			campoaux[i][j]=0;
 		}
 	}
-	for(i=0;i<v;i++){//coloca 1 nas posições das células vivas
+	for(i=0;i<v;i++){//coloca 1 nas posiÃ§Ãµes das cÃ©lulas vivas
 		scanf("%d", &p1);
 		scanf("%d", &p2);
 		campo[p1+1][p2+1]=1;
 		campoaux[p1+1][p2+1]=1;
 	}
 	int redor=0;
-	for(h=0;h<g;h++){//loop para as gerações
+	for(h=0;h<g;h++){//loop para as geraÃ§Ãµes
 		for(i=1;i<=m;i++){
-			for(j=1;j<=n;j++){//comparação com as 8 posições ao redor da posição, acumulando +1 cada vez que tiver uma célula viva
+			for(j=1;j<=n;j++){//comparaÃ§Ã£o com as 8 posiÃ§Ãµes ao redor da posiÃ§Ã£o, acumulando +1 cada vez que tiver uma cÃ©lula viva
 				if(campo[i-1][j-1]==1){
 					redor++;
 				}
@@ -47,7 +47,7 @@ int main(){
 				if(campo[i+1][j+1]==1){
 					redor++;
 				}
-				if(redor<2){//campo auxiliar é alterado de acordo com as regras do jogo
+				if(redor<2){//campo auxiliar Ã© alterado de acordo com as regras do jogo
 					campoaux[i][j]=0;
 				}else if(redor>3){
 					campoaux[i][j]=0;
@@ -57,7 +57,7 @@ int main(){
 				redor=0;
 			}
 		}
-		for(i=1;i<=m;i++){//campo é atualizado e impresso depois de ser totalmente analisado
+		for(i=1;i<=m;i++){//campo Ã© atualizado e impresso depois de ser totalmente analisado
 			for(j=1;j<=n;j++){
 				campo[i][j]=campoaux[i][j];
 				printf("%d ", campo[i][j]);
