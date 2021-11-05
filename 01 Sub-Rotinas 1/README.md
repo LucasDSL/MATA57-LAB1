@@ -1,4 +1,4 @@
-## [Sub-Rotinas - Parte 1]()
+## [Sub-Rotinas - Parte 1](https://github.com/LucasDSL/MATA57-LAB1/blob/d1a922da2e4bbb8ffb2dffb4aaef5d6c3a4e5242/01%20Sub-Rotinas%201/README.md)
 Exercício 01 (Pereira, 2010). Codifique um procedimento em C/C++ que receba como parâmetro um número natural n como entrada e exiba na tela uma contagem regressiva de n até 0.<br>
 Exercício 02 (Pereira, 2010). Codifique um procedimento em C/C++ que receba como parâmetro um número inteiro como entrada e exiba o dia da semana correspondente por extenso, isto é: 1 = domingo, 2 = segunda, 3 = terça etc.<br>
 Exercício 03 (Pereira, 2010). Codifique um procedimento em C/C++ que receba como parâmetro um número natural e exiba se ele é par ou impar.<br>

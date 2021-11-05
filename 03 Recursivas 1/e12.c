@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
+// Lucas Lima
 //Exercício 12. Crie uma função recursiva que receba um número inteiro n como parâmetro e retorne o soma dos números de 1 a n.
 int somaRecursiva(int n){
     if(n == 1){
