@@ -7,6 +7,8 @@ int somaRecursiva(int n){
         return 1;
     }
     else{
+        // Soma o número atual com ele - 1
+        // Fará isso até o número 1 (caso base)
         return n + somaRecursiva(n-1);
     }
 }
