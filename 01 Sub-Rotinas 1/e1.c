@@ -12,7 +12,7 @@ int main(){
     return 0;
 }
 
-void regressiva(long long int n){ // função que calcula a contagem
+void regressiva(long long int n){ // funÃ§Ã£o que calcula a contagem
 	long long int i;
 	for(i=n;i>=0;i--){ // loop que imprime de n ate 0
 		printf("%d\n", i);
