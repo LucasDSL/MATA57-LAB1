@@ -1,3 +1,4 @@
+//feito por Adrielle Andrade Carvalho
 #include <stdlib.h>
 #include <stdio.h>
 
