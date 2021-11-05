@@ -1,7 +1,7 @@
 //Chama-se de quadrado mágico um arranjo, na forma de um quadrado, de N x N números inteiros tal que todas as linhas, colunas e diagonais têm a mesma soma. Escreva um programa que, dado um quadrado, determine se ele é magico ou não e qual a soma dele (caso seja mágico).
 #include<stdio.h>
 #include<stdlib.h>
-// Lucas Lima 
+// Lucas Lima.
 int main(){
     int n;
     printf("Digite a dimensao do quadrado: ");

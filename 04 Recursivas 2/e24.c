@@ -2,6 +2,7 @@
 #include<stdlib.h>
 // Lucas Lima 
 unsigned int fib(int k){
+    // fibonnaci recursiva
     if(k == 0){
         return 0;
     }
@@ -13,6 +14,7 @@ unsigned int fib(int k){
     }
 }
 void fib(unsigned long int k){
+    // fibonnaci com somas de dois em dois números
     unsigned long int atual = 0, ultimo = 1, penultimo = 0;
     int i;
     for( i = 2; i <= k; i++) {
