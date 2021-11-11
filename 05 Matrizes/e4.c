@@ -37,7 +37,8 @@ int main(){
         soma_ds += matriz[i][count_ds];
         count_ds--;
     }
-    somas[2*n] = soma_dp;
+    // Diagonais principais e secundárias para as últimas posições da lista de somas
+    somas[2*n] = soma_dp; 
     somas[2*n + 1] = soma_ds;
     int primeiro_numero_soma = somas[0];
     for(i = 1; i < 2*n + 2; i++){
