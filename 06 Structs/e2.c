@@ -1,3 +1,4 @@
+//feito por Adrielle Andrade Carvalho
 #include <stdio.h>
 #include <stdlib.h>
 #define MAX 128
@@ -17,7 +18,7 @@ int main(){
 	int i=0, n;
 	do{
 		dados(lista, i);
-		printf("\nDeseja continuar? \n[1] Sim\n[0]Não ");
+		printf("\nDeseja continuar? \n[1] Sim\n[0]NÃ£o ");
 		scanf("%d", &n);
 		i++;
 	}while((n == 1) && (i<100));
@@ -43,7 +44,7 @@ void velho(pop *lista, int quant){
 			maior = lista[i].idade;
 		}
 	}
-	printf("A pessoa mais velha tem %d anos e está na posição %d da lista", maior, pos);
+	printf("A pessoa mais velha tem %d anos e estÃ¡ na posiÃ§Ã£o %d da lista", maior, pos);
 }
 
 void porcentagem(pop *lista, int quant){
@@ -55,5 +56,5 @@ void porcentagem(pop *lista, int quant){
 		}
 	}
 	porc = (cont/quant)*100;
-	printf("O percentual é %g", porc);
+	printf("O percentual Ã© %g", porc);
 }
