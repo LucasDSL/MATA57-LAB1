@@ -29,49 +29,49 @@ void jogo(int campo[m][n], int campoaux[m][n]){
 	int i, j;
 	int redor = 0;
 	for(i=1;i<m;i++){
-			for(j=1;j<n;j++){//comparação com as 8 posições ao redor da posição, acumulando +1 cada vez que tiver uma célula viva
-				if(campo[i-1][j-1]==1){
-					redor++;
-				}
-				if(campo[i-1][j]==1){
-					redor++;
-				}
-				if(campo[i-1][j+1]==1){
-					redor++;
-				}
-				if(campo[i][j-1]==1){
-					redor++;
-				}
-				if(campo[i][j+1]==1){
-					redor++;
-				}
-				if(campo[i+1][j-1]==1){
-					redor++;
-				}
-				if(campo[i+1][j]==1){
-					redor++;
-				}
-				if(campo[i+1][j+1]==1){
-					redor++;
-				}
-				if(redor<2){//campo auxiliar é alterado de acordo com as regras do jogo
-					campoaux[i][j]=0;
-				}else if(redor>3){
-					campoaux[i][j]=0;
-				}else if(redor==3){
-					campoaux[i][j]=1;
-				}
-				redor=0;
+		for(j=1;j<n;j++){//comparação com as 8 posições ao redor da posição, acumulando +1 cada vez que tiver uma célula viva
+			if(campo[i-1][j-1]==1){
+				redor++;
 			}
+			if(campo[i-1][j]==1){
+				redor++;
+			}
+			if(campo[i-1][j+1]==1){
+				redor++;
+			}
+			if(campo[i][j-1]==1){
+				redor++;
+			}
+			if(campo[i][j+1]==1){
+				redor++;
+			}
+			if(campo[i+1][j-1]==1){
+				redor++;
+			}
+			if(campo[i+1][j]==1){
+				redor++;
+			}
+			if(campo[i+1][j+1]==1){
+				redor++;
+			}
+			if(redor<2){//campo auxiliar é alterado de acordo com as regras do jogo
+				campoaux[i][j]=0;
+			}else if(redor>3){
+				campoaux[i][j]=0;
+			}else if(redor==3){
+				campoaux[i][j]=1;
+			}
+			redor=0;
 		}
-		for(i=1;i<m;i++){//campo é atualizado e impresso depois de ser totalmente analisado
-			for(j=1;j<n;j++){
-				campo[i][j]=campoaux[i][j];
-				printf("%d ", campo[i][j]);
-			}
-			printf("\n");
+	}
+	for(i=1;i<m;i++){//campo é atualizado e impresso depois de ser totalmente analisado
+		for(j=1;j<n;j++){
+			campo[i][j]=campoaux[i][j];
+			printf("%d ", campo[i][j]);
 		}
 		printf("\n");
+	}
+	printf("\n");
 }
 
 int main(){
