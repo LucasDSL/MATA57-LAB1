@@ -8,7 +8,7 @@ int count = 0;
 
 void  iniciar(int n, int *a1, int *a2, int *a3) {
     system("clear||cls");
-    cout << "Número de jogadas: " << count <<endl;
+    cout << "NÃºmero de jogadas: " << count <<endl;
     for(int i = 0; i < n; i++) {
         a1[i] = i+1;
         a2[i] = 0;
@@ -42,7 +42,7 @@ void tick(int  n, int *o, int *d) {
 
 void render(int  n, int *a1, int *a2, int *a3, string o , string d){
     system("clear||cls");
-    cout << "Número de jogadas: " << count <<endl;
+    cout << "NÃºmero de jogadas: " << count <<endl;
     for(int i = 0; i < n; i++) {
         cout << "   " << a1[i] << "         " << a2[i] << "         " << a3[i] <<endl;
     }
