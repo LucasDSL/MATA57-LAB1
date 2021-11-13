@@ -9,7 +9,7 @@ int main() {
 
 	FILE *p;  // criacao de um ponteiro do tipo FILE
 	
-	p = fopen("textodeigor1.txt", "r"); //abrindo o arquivo de texto no modo leitura
+	p = fopen("textoe4.txt", "r"); //abrindo o arquivo de texto no modo leitura
 	
 	if (p == NULL) { // se o ponteiro indicar NULL, o arquivo nao existe ou nao foi encontrado
 		perror("\nHouve um erro ao abrir arquivo para leitura: ");
