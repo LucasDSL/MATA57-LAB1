@@ -9,6 +9,7 @@ int main(){
     FILE *p;
 
     printf("Digite o nome do arquivo de entrada: \n");
+    printf("obs: esta disponivel um arquivo padrao para o codigo-> populacoes.txt \n");
     char file_in[20];
     scanf("%s", &file_in);
 
