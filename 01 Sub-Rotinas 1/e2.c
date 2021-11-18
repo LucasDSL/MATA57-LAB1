@@ -26,6 +26,7 @@ void semana(int dia){//função que imprime os dias da semana
 			printf("7 = Sábado\n");
 			break;
 		default:
+			printf("Dia inválido");
 			
 	}
 }
