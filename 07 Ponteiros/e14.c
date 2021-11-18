@@ -1,3 +1,4 @@
+//Feita por Iasmim da Cruz Marinho
 //função receba dois parâmetros: um array e um valor do mesmo tipo do array. A função deverá preencher os elementos do array com esse valor.
 
 #include <stdio.h>
