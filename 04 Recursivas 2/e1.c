@@ -1,3 +1,4 @@
+//Feita por Iasmim da Cruz Marinho
 //dada a quantidade de blocos existentes na base, retorne o total de blocos da pirâmide.
 
 #include <stdio.h>
