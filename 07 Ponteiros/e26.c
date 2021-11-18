@@ -1,3 +1,4 @@
+//Feita por Iasmim da Cruz Marinho
 /*Calcular as raizes
 Se ∆ < 0 nao existe real. 
 Se ∆ = 0 existe uma raiz real.
