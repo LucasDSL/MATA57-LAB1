@@ -1,3 +1,4 @@
+//Feita por Iasmim da Cruz Marinho
 //O programa ler três valores e apresenta o maior dos três valores lidos
 
 #include <stdio.h>
