@@ -1,3 +1,5 @@
+//Feita por Iasmim da Cruz Marinho
+
 #include <stdio.h>
 #include <stdlib.h>
 
