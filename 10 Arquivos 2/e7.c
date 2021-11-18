@@ -1,3 +1,5 @@
+//feita por Iasmim da Cruz Marinho
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
@@ -23,8 +25,8 @@ int main(){
     scanf("%s", &arq1);
     strcat(arq1,".txt"); //unir o yipo ao nome
 
-    if((f1 = fopen(arq1, "r")) == NULL){ //se arquivo n„o pode ser lido
-        printf("N„o foi possivel abrir\n");
+    if((f1 = fopen(arq1, "r")) == NULL){ //se arquivo n√£o pode ser lido
+        printf("N√£o foi possivel abrir\n");
         exit(1);
     }
     printf("Informe o nome do segundo arquivo\n");
@@ -32,12 +34,12 @@ int main(){
     scanf(" %s", &arq2);
     strcat(arq2,".txt"); //unir o yipo ao nome
 
-    if((f2 = fopen(arq2, "w")) == NULL){ //se arquivo n„o pode ser lido
-        printf("N„o foi possivel abrir\n");
+    if((f2 = fopen(arq2, "w")) == NULL){ //se arquivo n√£o pode ser lido
+        printf("N√£o foi possivel abrir\n");
         exit(1);
 
     }
-        copiaInfo(f1, f2, ano); //chama procedimento que copia saÌda
+        copiaInfo(f1, f2, ano); //chama procedimento que copia sa√≠da
     }
 
     void copiaInfo(FILE* f1, FILE* f2, int ano){
@@ -45,7 +47,7 @@ int main(){
         char nome[40];
         char *frase;
 
-        while(!feof(f1)){ //executa atÈ n„o ter mais texto
+        while(!feof(f1)){ //executa at√© n√£o ter mais texto
         fscanf(f1, " %s\n %d", nome, &nasc); //leitura dos dados formatados
         //printf("%s %d %d\n", nome, nasc, ano-nasc);
 
