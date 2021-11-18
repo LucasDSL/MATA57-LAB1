@@ -1,6 +1,5 @@
-// Faça um programa que recebe um vetor de 10 números, 
-// converta cada um desses números para binário e grave a sequência de 0s e 1s em um arquivo texto. 
-// Cada número deve ser gravado em uma linha.
+// feito por Igor Dantas
+// https://github.com/igordantasgf
 
 #include <stdlib.h>
 #include <stdio.h>
