@@ -1,3 +1,4 @@
+//Feita por Iasmim da Cruz Marinho
 //calcular, de forma recursiva, a soma dos elementos de um vetor
 #include <stdio.h>
 #include <stdlib.h>
