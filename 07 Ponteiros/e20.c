@@ -1,3 +1,4 @@
+//Feita por Iasmim da Cruz Marinho
 //retorne quantos números negativos há nesse array
 
 #include <stdio.h>
