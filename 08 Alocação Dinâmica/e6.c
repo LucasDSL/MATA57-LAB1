@@ -1,4 +1,6 @@
+//Feita por Iasmim da Cruz Marinho
 // inserir um valor em uma determinada posição ou consultar o valor
+
 #include <stdio.h>
 #include <stdlib.h>
 
