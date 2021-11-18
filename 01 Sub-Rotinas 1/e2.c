@@ -1,39 +1,46 @@
 //feito por Alan Cristian Nunes da Silva
-#include <stdlib.h>
 #include <stdio.h>
 
-void semana(int dia){//função que imprime os dias da semana 
-	switch(dia){
-		case 1:
-			printf("1 = Domingo\n");
-			break;
-		case 2:
-			printf("2 = Segunda\n");
-			break;
-		case 3:
-			printf("3 = Terça\n");
-			break;
-		case 4:
-			printf("4 = Quarta\n");
-			break;
-		case 5:
-			printf("5 = Quinta\n");
-			break;
-		case 6:
-			printf("6 = Sexta\n");
-			break;
-		case 7:
-			printf("7 = Sábado\n");
-			break;
-		default:
-			printf("Dia inválido");
-			
-	}
+// Procedimento que printa no console o dia da semana
+void diaDaSemana(int num) {
+
+  switch(num){
+    case 1:
+      printf("Domingo");
+    break;
+    case 2:
+      printf("Segunda");
+    break;
+    case 3:
+      printf("TerÃ§a");
+    break;
+    case 4:
+      printf("Quarta");
+    break;
+    case 5:
+      printf("Quinta");
+    break;
+    case 6:
+      printf("Sexta");
+    break;
+    case 7:
+      printf("SÃ¡bado");
+    break;
+    default:
+      printf("NÃºmero invÃ¡lido");
+  }
 }
 
-int main(){
-	int dia;
-	scanf("%d", &dia);
-	semana(dia);
-    return 0;
+// FunÃ§Ã£o main
+int main() {
+
+  // Entrada de dados
+  int num;
+  printf("Digite um nÃºmero: ");
+  scanf("%i", &num);
+
+  // Chamada do procedimento
+  diaDaSemana(num);
+
+  return 0;
 }
