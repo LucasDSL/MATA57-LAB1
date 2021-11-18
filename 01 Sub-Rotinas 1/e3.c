@@ -1,3 +1,4 @@
+//Feita por Iasmim da Cruz Marinho
 //O programa recebe um valor e calcula se é par ou impar
 
 #include <stdio.h>
