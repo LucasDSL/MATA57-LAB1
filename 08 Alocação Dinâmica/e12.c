@@ -1,4 +1,6 @@
+//Feita por Iasmim da Cruz Marinho
 //Considere um cadastro de produtos de um estoque
+
 #include <stdio.h>
 #include <stdlib.h>
 
