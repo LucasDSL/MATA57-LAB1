@@ -25,7 +25,7 @@
 
 ## [Structs](https://github.com/LucasDSL/MATA57-LAB1/blob/eaebecdc51169706cb9228dca5247fa77950855c/06%20Structs/README.md)
 
-## [Ponteiros]()
+## [Ponteiros](#ponteiros)
 
 ## [Alocação Dinâmica]()
 
