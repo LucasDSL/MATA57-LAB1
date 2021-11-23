@@ -1,5 +1,5 @@
 ## Arquivos Parte 3
-
+PS: Certifique-se de voltar a branch main(default) após sair da questão linkada nos títulos.
 ### [Exercício 21](https://github.com/LucasDSL/MATA57-LAB1/blob/b0784cdfd8151f7209b0ae8ac8c2bb854db1b3a0/11%20Arquivos%203/e21.c)
 
 Crie um programa que receba como entrada o número de alunos de uma disciplina. Aloque dinamicamente em uma estrutura para armazenar as informações a respeito desses alunos: nome do aluno e sua nota ﬁnal. Use nomes com no máximo 40 caracteres. Em seguida, salve os dados dos alunos em um arquivo binário. Por ﬁm, leia o arquivo e mostre o nome do aluno com a maior nota.
@@ -16,7 +16,7 @@ Escreva um programa que leia a proﬁssão e o tempo de serviço (em anos) de ca
 
 Implemente um controle simples de mercadorias em uma despensa doméstica. Para cada produto armazene um código numérico, descrição e quantidade atual. O programa deve ter opções para entrada e retirada de produtos, bem como um relatório geral e um de produtos não disponíveis. Armazene os dados em arquivo binário.
 
-### [Exercício 25](#)
+### Exercício 25
 
 Faça um programa gerenciar uma agenda de contatos. Para cada contato armazene o nome, o telefone e o aniversário (dia e mês). O programa deve permitir<br>
 
@@ -42,7 +42,7 @@ Crie um programa que declare uma estrutura para o cadastro de alunos.
 
 Dica: para que o usuário possa entrar com novos dados, além dos que foram obtidos a partir do arquivo, use a função realloc() para realocar a quantidade de memória usada.
 
-### [Exercício 27](#)
+### Exercício 27
 
 Faça um programa para gerenciar as notas dos alunos de uma turma salva em um arquivo. O programa deverá ter um menu contendo as seguintes opções:
 (a) Deﬁnir informações da turma;
