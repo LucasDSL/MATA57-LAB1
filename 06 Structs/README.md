@@ -1,5 +1,7 @@
 ## Structs
 
+PS: Certifique-se de voltar a branch main(default) após sair da questão linkada nos títulos.
+
 ### [Exercício 01](https://github.com/LucasDSL/MATA57-LAB1/blob/baccceeb574cc6d32ca76863c2ba27ab1719af0c/06%20Structs/e1.c)
 
 [adaptado de Paes(2016)]

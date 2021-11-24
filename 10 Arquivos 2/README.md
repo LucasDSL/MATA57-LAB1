@@ -1,5 +1,7 @@
 ## Arquivos Parte 2
 
+PS: Certifique-se de voltar a branch main(default) após sair da questão linkada nos títulos.
+
 ### [Exercício 09](https://github.com/LucasDSL/MATA57-LAB1/blob/b0784cdfd8151f7209b0ae8ac8c2bb854db1b3a0/10%20Arquivos%202/e9.c)
 
 Faça um programa que receba dois arquivos do usuário, e crie um terceiro arquivo com o conteúdo dos dois primeiros juntos (o conteúdo do primeiro seguido do conteúdo do segundo).

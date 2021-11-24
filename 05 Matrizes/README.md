@@ -1,5 +1,7 @@
 ## Matrizes
 
+PS: Certifique-se de voltar a branch main(default) após sair da questão linkada nos títulos.
+
 ### [Exercício 01](https://github.com/LucasDSL/MATA57-LAB1/blob/baccceeb574cc6d32ca76863c2ba27ab1719af0c/05%20Matrizes/e1.c)
 
 [adaptado de Pereira (2010)].Escreva um programa que leia duas matrizes de inteiros e preencha uma terceira matriz com o resultado da soma das duas. As matrizes devem ter dimensões N x M, em que N e M serão dados pelo usuário. Sabe-se que N e M são números entre 1 e 100.

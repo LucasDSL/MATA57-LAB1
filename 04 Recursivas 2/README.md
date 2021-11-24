@@ -1,5 +1,7 @@
 ## Funções Recursivas - Parte 2
 
+PS: Certifique-se de voltar a branch main(default) após sair da questão linkada nos títulos.
+
 ### [Exercício 01](https://github.com/LucasDSL/MATA57-LAB1/blob/baccceeb574cc6d32ca76863c2ba27ab1719af0c/04%20Recursivas%202/e1.c)
 
 [Paes (2016)]. Os faraós da terra do nunca resolveram fazer uma pirâmide empilhando blocos de barro. No topo da pirâmide existe apenas um bloco. Embaixo desse, existem dois blocos; embaixo desses dois blocos, existem três blocos e assim sucessivamente, até a base da pirâmide. A Figura abaixo representa um exemplo de pirâmide de base 4.

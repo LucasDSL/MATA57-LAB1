@@ -1,5 +1,7 @@
 ## Sub-Rotinas - Parte 1
 
+PS: Certifique-se de voltar a branch main(default) após sair da questão linkada nos títulos.
+
 ### [Exercício 01](https://github.com/LucasDSL/MATA57-LAB1/blob/ce8e26159b8264dbbae59a67a1428235e41d26d0/01%20Sub-Rotinas%201/e1.c)
 
 (Pereira, 2010). Codifique um procedimento em C/C++ que receba como parâmetro um número natural n como entrada e exiba na tela uma contagem regressiva de n até 0.<br>

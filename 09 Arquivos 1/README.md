@@ -1,5 +1,7 @@
 ## Arquivos Parte 1
 
+PS: Certifique-se de voltar a branch main(default) após sair da questão linkada nos títulos.
+
 ### [Exercício 01](https://github.com/LucasDSL/MATA57-LAB1/blob/b0784cdfd8151f7209b0ae8ac8c2bb854db1b3a0/09%20Arquivos%201/e1.c)
 
 Escreva um programa que:

@@ -1,5 +1,7 @@
 ## Sub-Rotinas - Parte 2
 
+PS: Certifique-se de voltar a branch main(default) após sair da questão linkada nos títulos.
+
 ### [Exercício 06](https://github.com/LucasDSL/MATA57-LAB1/blob/baccceeb574cc6d32ca76863c2ba27ab1719af0c/02%20Sub-Rotinas%202/e6.c)
 
 [adaptado de Pereira (2010)]. Crie um programa que solicite ao usuário uma data no formato "dd/mm/aaaa" e exiba na tela a data do dia seguinte, usando o mesmo formato. Na construção desse programa, você considerar a implementação das seguintes subrotinas em C/C++: função dia - recebe como parâmetro uma data no formato "dd/mm/aaaa" e retorna um numero natural representando o dia; função mês - recebe como parâmetro uma data no formato "dd/mm/aaaa" e retorna um numero natural representando o mês; função ano - recebe como parâmetro uma data no formato "dd/mm/aaaa" e retorna um numero natural representando o ano; função dataValida - recebe dia, mês e ano como parâmetro e retorna verdadeiro caso a data seja válida ou falso, caso contrário; procedimento diaSeguinte - recebe, como parâmetro, dia, mês e ano de uma data válida e exibe em tela a data do dia seguinte no formato "dd/mm/aaaa".<br>
