@@ -45,8 +45,8 @@ int main(void) {
         //se true for 1 significa que o numero nesta posicao eh 0 e portanto nada mais, nesta posicao, precisa ser incluso na matriz
         fputc(49, matriz);
         fputc(32, matriz); }
-        if (j == dados1[0][1] - 1) fputc(10, matriz); // inclui um \n caso se tenha chegado ao fim da linha
-        tru = 0;
+      if (j == dados1[0][1] - 1) fputc(10, matriz); // inclui um \n caso se tenha chegado ao fim da linha
+      tru = 0;
     }
   }
 
